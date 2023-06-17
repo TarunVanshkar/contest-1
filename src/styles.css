@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000000;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    color: #FFFFFF;
+    width: 70%;
+    margin: 5% auto;
+}
+
+.form-container form h1{
+    font-size: 64px;
+}
+
+.form-container form input{
+    color: #FFFFFF;
+    background-color: #000000;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 1rem;
+    font-size: 24px;
+}
+
+.form-container form input::placeholder{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+.form-container form button{
+    padding: 1% 8%;
+    font-size: 24px;
+}
+
+.form-container form .error-message{
+    display: block;
+    color: #FF4F4F;
+}
+
+.form-container form .success-message{
+    display: block;
+    color: #7ECD71;
+}
